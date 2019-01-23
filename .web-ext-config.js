@@ -1,10 +1,13 @@
+// This doesn't work even though it's documented. Add ignored files to package.json build command arguments.
 module.exports = {
     ignoreFiles: [
         "jsconfig.json",
-        "package-lock.json",
-        "package.json",
-        "tests/*",
+        "icon425.png",
         "data/pageMods.json",
-        "docs/*"
+        "README.md",
+        "tests/*",
+        "docs/*",
+        "deploy/*",
+        "package*"
     ]
 }
